@@ -1,3 +1,29 @@
-h1 {
-    color: blue;
+@import url(../css/header.css); 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 980px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 669px) {
+    
 }
