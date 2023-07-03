@@ -61,10 +61,14 @@
 }
 .promo__slider-info_descr {
     font-size: 24px;
-    color: #ffffff;
+    color: rgba(255, 255, 255);
     line-height: 1.25;
     margin-bottom: 45px;
     width: 70%;
+    opacity: .8;
+  }
+  .promo__slider-info_descr span {
+      opacity: 1;
   }
   .promo__slider-info_btn {
     font-size: 16px;
