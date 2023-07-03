@@ -1,11 +1,18 @@
 @import url(../css/header.css); 
 @import url(../css/promo.css); 
+@import url(../css/prengi.css); 
+@import url(../css/desicion.css); 
+@import url(../css/advantage.css); 
+@import url(../css/variant.css); 
+@import url(../css/start.css); 
+@import url(../css/footer.css); 
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: "Roboto";
+    list-style: none;
 }
 
 .wrapper {

@@ -1,0 +1,34 @@
+.footer {
+    background-color: #0082a1;
+    color: #ffffff;
+}
+.footer__top {
+    padding: 50px 0;
+}
+.footer__bottom {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid rgba(250, 250, 250, 0.5);
+
+}
+.footer__title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer__descr {
+    line-height: 1.188;
+}
+.footer__descr p {
+    margin-bottom: 10px;
+}
+.footer__list li {
+    margin-bottom: 10px;
+}
+.footer__company {
+    width: 33%;
+}
+.footer__logo {
+    margin-bottom: 20px;
+}
+  
