@@ -1,0 +1,62 @@
+.advantage {
+    padding: 80px 0;
+}
+.advantage__title {
+    width: 33%;
+    margin: 0 auto 50px;
+}
+.advantage__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantage__block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.advantage__block-text {
+    min-height: 155px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    font-size: 23px;
+    line-height: 1.13;   
+    padding-top: 35px;
+}
+.first {
+     background: url('../img/imgs/advantage-1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
+.second {
+     background: url('../img/imgs/advantage-2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
+.third {
+     background: url('../img/imgs/advantage-3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
+.fourth {
+     background: url('../img/imgs/advantage-4.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
+.fifth {
+     background: url('../img/imgs/advantage-5.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
+.sixth {
+     background: url('../img/imgs/advantage-6.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 355px;
+}
