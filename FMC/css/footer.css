@@ -9,7 +9,6 @@
     padding: 40px 0;
     text-align: center;
     border-top: 1px solid rgba(250, 250, 250, 0.5);
-
 }
 .footer__title {
     font-size: 16px;
@@ -31,4 +30,23 @@
 .footer__logo {
     margin-bottom: 20px;
 }
-  
+
+@media (max-width: 992px) {
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .footer__company, .footer__modules, .footer__fields, .footer__about {
+        width: 45%;
+        margin: 0 0 30px 0;
+    }
+    .footer__top {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 628px) {
+    .footer__company, .footer__modules, .footer__fields, .footer__about {
+        width: 90%;
+    }
+}
