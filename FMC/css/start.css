@@ -5,11 +5,10 @@
     flex-direction: column;
 }
 .start__logo {
-    width: 305px;
-    height: 305px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto 75px;
     display: inline-block;
-    width: 300px;
     position: relative;
     border: 2px solid #337AB7;
     transition: all .3s ease;
@@ -58,3 +57,31 @@
       width: 25%;
       margin: 40px auto 0;
   }
+
+  @media (max-width: 1140px) {
+    .start__btn {
+        width: 35%;
+    }
+}
+@media (max-width: 760px) {
+    .start__btn {
+        width: 40%;
+    }
+}
+
+@media (max-width: 660px) {
+    .start__btn {
+        width: 50%;
+    }
+}
+@media (max-width: 540px) {
+    .start__btn {
+        width: 90%;
+    }
+}
+  @media (max-width: 320px) {
+    .start__logo {
+        width: 280px;
+        height: 280px;
+    }
+}
