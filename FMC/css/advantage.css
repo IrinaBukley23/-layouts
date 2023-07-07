@@ -60,3 +60,25 @@
     background-size: cover;
     min-height: 355px;
 }
+@media (max-width: 660px) {
+    .advantage__block {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .advantage__title {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+}
+@media (max-width: 540px) {
+    .advantage__block {
+        width: 90%;
+    }
+    .advantage__title {
+        width: 90%;
+        font-size: 24px;
+    }
+    .advantage__block-text {
+        font-size: 18px;
+    }
+}
