@@ -57,14 +57,31 @@
     .wrapper {
         display: flex;
         flex-wrap: wrap;
-        max-width: 980px;
+        max-width: 900px;
         margin: 0 auto;
         justify-content: space-around;
     }
 }
-
+@media (max-width: 910px) {
+    .wrapper {
+        max-width: 800px;
+    }
+}
+@media (max-width: 810px) {
+    .wrapper {
+        max-width: 600px;
+    }
+}
+@media (max-width: 660px) {
+    .wrapper {
+        max-width: 530px;
+    }
+}
 @media (max-width: 540px) {
     .title {
         font-size: 24px;
+    }
+    .wrapper {
+        max-width: 310px;
     }
 }
