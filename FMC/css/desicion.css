@@ -1,0 +1,59 @@
+.desicion {
+    background: url('../img/bg/prengi-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 80px 0;
+}
+.desicion .wrapper {
+    flex-direction: column;
+}
+.desicion__tabs {
+    margin: 35px auto;
+    display: flex;
+}
+.desicion__tabs-btn {
+    text-align: center;
+    padding: 25px 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+}
+.desicion .active {
+    color: #00c2f0;
+}
+.desicion__content {
+    margin: 0 auto;
+}
+.desicion__content-item {
+    width: 960px;
+}
+.desicion__content-item img {
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .desicion__content-item {
+        width: 660px;
+    }
+    .desicion__tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .desicion__tabs-btn {
+        padding: 15px 20px;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 660px) {
+    .desicion {
+        padding: 30px 0;
+        min-height: 500px;
+    }
+    .desicion__content-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .desicion__tabs-btn {
+        padding: 5px 10px;
+    }
+}
